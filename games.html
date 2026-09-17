@@ -1,141 +1,148 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Games — Little Machine Games</title>
-<meta name="description" content="The two games currently in development at Little Machine Games: Solar Island Defence and Labyrinth of Traps.">
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saienko Interactive — indie mobile games</title>
+  <meta name="description" content="Saienko Interactive is the solo mobile game studio.">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-<nav class="site-nav">
-  <div class="nav-row">
-    <a href="index.html" class="wordmark">
-      <svg class="wordmark-mark" viewBox="0 0 40 40" aria-hidden="true">
-        <circle cx="20" cy="20" r="18" fill="var(--card)" stroke="var(--line)"/>
-        <circle cx="20" cy="20" r="7" fill="none" stroke="var(--ink)" stroke-width="2"/>
-        <g fill="var(--ink)">
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(45 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(45 20 20)"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(90 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(90 20 20)"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(135 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(135 20 20)"/>
-        </g>
-      </svg>
-      Little Machine Games
-    </a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"></button>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="games.html" aria-current="page">Games</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="hero" style="padding-bottom:24px;">
-  <div class="container" style="max-width:70ch;">
-    <span class="eyebrow-tag"><span class="dot"></span>Two workbenches</span>
-    <h1 style="max-width:16ch; font-size:clamp(2rem,4.2vw,3rem);">Two games, two very different toolkits.</h1>
-    <p class="lede">One is about generating enough sunlight to survive. The other is about surviving what someone else built to keep you out. Both are made the same way — piece by piece, and tested until they feel right on a phone.</p>
-  </div>
-</header>
-
-<section style="padding-top:16px;">
-  <div class="container">
-
-    <article class="spread" id="solar-island-defence">
-      <div class="spread-art solar">
-        <svg viewBox="0 0 200 200" aria-hidden="true">
-          <circle cx="150" cy="40" r="24" fill="var(--card)"/>
-          <g stroke="var(--card)" stroke-width="5" stroke-linecap="round">
-            <line x1="150" y1="0" x2="150" y2="-8" transform="translate(0,8)"/>
-            <line x1="182" y1="18" x2="190" y2="10"/>
-            <line x1="186" y1="40" x2="198" y2="40"/>
-            <line x1="182" y1="62" x2="190" y2="70"/>
-          </g>
-          <path d="M20,150 L180,150 L142,186 L58,186 Z" fill="var(--card)"/>
-          <rect x="76" y="92" width="22" height="62" fill="var(--card)"/>
-          <path d="M71,92 L103,92 L87,62 Z" fill="var(--card)"/>
-          <rect x="86" y="108" width="6" height="14" fill="var(--gold)"/>
-          <rect x="112" y="126" width="40" height="16" rx="3" fill="var(--card)"/>
-          <rect x="144" y="114" width="10" height="34" rx="3" fill="var(--card)"/>
-          <circle cx="149" cy="112" r="4" fill="var(--card)"/>
-        </svg>
-      </div>
-      <div class="spread-body">
-        <span class="status-pill">In development</span>
-        <h2>Solar Island Defence</h2>
-        <p class="spread-tagline">Tower defense on a floating solarpunk island.</p>
-        <p class="desc">A floating-island tower defense game built with a toy-box, tilt-shift art style — like looking down at a miniature diorama rather than a battlefield. You place and upgrade solar-powered turrets and self-propelled artillery to defend the island, moving between direct combat, strategic placement, and light city-building as each run grows.</p>
-        <ul class="feature-list">
-          <li>Five-tier turret upgrade paths with clear, color-coded progression</li>
-          <li>Self-propelled artillery units alongside static defenses</li>
-          <li>A toy-box, tilt-shift art style designed for mobile readability</li>
-          <li>Cosmetic-only store — no pay-to-win, progress is never gated</li>
-        </ul>
-        <div class="meta-row">
-          <div><span class="meta-label">Genre</span><span>Tower defense</span></div>
-          <div><span class="meta-label">Style</span><span>Toy-box 3D, solarpunk</span></div>
-          <div><span class="meta-label">Platform</span><span>iOS &amp; Android (planned)</span></div>
-          <div><span class="meta-label">Monetization</span><span>Cosmetics only</span></div>
-        </div>
-      </div>
-    </article>
-
-    <article class="spread reverse" id="labyrinth-project">
-      <div class="spread-art labyrinth">
-        <svg viewBox="0 0 200 200" aria-hidden="true">
-          <path d="M40,40 H160 V160 H60 V80 H140 V120 H80 V100"
-                fill="none" stroke="var(--card)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-          <g>
-            <rect x="26" y="18" width="6" height="18" rx="2" fill="var(--card)"/>
-            <path d="M29,18 q8,-12 0,-20 q-8,8 0,20" fill="var(--card)"/>
-          </g>
-          <g>
-            <rect x="168" y="162" width="6" height="18" rx="2" fill="var(--card)"/>
-            <path d="M171,162 q8,-12 0,-20 q-8,8 0,20" fill="var(--card)"/>
+  <nav class="site-nav">
+    <div class="nav-row">
+      <a href="index.html" class="wordmark">
+        <svg class="wordmark-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="var(--card)" stroke="var(--line)" />
+          <circle cx="20" cy="20" r="7" fill="none" stroke="var(--ink)" stroke-width="2" />
+          <g fill="var(--ink)">
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(45 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(45 20 20)" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(90 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(90 20 20)" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(135 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(135 20 20)" />
           </g>
         </svg>
-      </div>
-      <div class="spread-body">
-        <span class="status-pill">Early concepting</span>
-        <h2>Labyrinth of Traps <em>(working title)</em></h2>
-        <p class="spread-tagline">An ancient labyrinth, built trap by trap.</p>
-        <p class="desc">A game growing out of real research into ancient traps, locks, and labyrinths — starting with Egyptian-themed chambers. Rather than a generated maze, each room is designed around a specific historical mechanism, so the challenge comes from understanding how a trap actually works, not just memorizing a path.</p>
-        <ul class="feature-list">
-          <li>Levels grounded in research into real historical trap and lock mechanisms</li>
-          <li>Egyptian-themed chambers as the first setting</li>
-          <li>Environments built and textured piece by piece, from stone walls to workbenches</li>
-          <li>Hand-designed rooms, not procedurally generated mazes</li>
-        </ul>
-        <div class="meta-row">
-          <div><span class="meta-label">Genre</span><span>Puzzle / exploration</span></div>
-          <div><span class="meta-label">Setting</span><span>Ancient Egypt (first chapter)</span></div>
-          <div><span class="meta-label">Platform</span><span>Mobile (planned)</span></div>
-          <div><span class="meta-label">Status</span><span>Design &amp; research</span></div>
+        Saienko Interactive
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html" aria-current="page">Games</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" style="padding-bottom:24px;">
+    <div class="container" style="max-width:70ch;">
+      <span class="eyebrow-tag"><span class="dot"></span>Games</span>
+      <h1 style="max-width:16ch; font-size:clamp(2rem,4.2vw,3rem);">Different games, by one author.</h1>
+      <p class="lede">All are made the same way — piece by piece, and tested until they feel right.
+      </p>
+    </div>
+  </header>
+
+  <section style="padding-top:16px;">
+    <div class="container">
+
+      <article class="spread" id="geometry-hunter">
+        <div class="spread-art solar">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <circle cx="150" cy="40" r="24" fill="var(--card)" />
+            <g stroke="var(--card)" stroke-width="5" stroke-linecap="round">
+              <line x1="150" y1="0" x2="150" y2="-8" transform="translate(0,8)" />
+              <line x1="182" y1="18" x2="190" y2="10" />
+              <line x1="186" y1="40" x2="198" y2="40" />
+              <line x1="182" y1="62" x2="190" y2="70" />
+            </g>
+            <path d="M20,150 L180,150 L142,186 L58,186 Z" fill="var(--card)" />
+            <rect x="76" y="92" width="22" height="62" fill="var(--card)" />
+            <path d="M71,92 L103,92 L87,62 Z" fill="var(--card)" />
+            <rect x="86" y="108" width="6" height="14" fill="var(--gold)" />
+            <rect x="112" y="126" width="40" height="16" rx="3" fill="var(--card)" />
+            <rect x="144" y="114" width="10" height="34" rx="3" fill="var(--card)" />
+            <circle cx="149" cy="112" r="4" fill="var(--card)" />
+          </svg>
         </div>
-      </div>
-    </article>
+        <div class="spread-body">
+          <span class="status-pill">In Store</span>
+          <h2>Geometry Hunter</h2>
+          <p class="spread-tagline">Hybrid puzzle-platformer with a focus on geometric equality-solving.</p>
+          <p class="desc">Test your spatial reasoning skills in this unique puzzle-platformer.</p>
+          <ul class="feature-list">
+            <li>Simple rule - catch the right shape</li>
+            <li>Colorful, minimalist art style</li>
+            <li>2D art style designed for mobile readability</li>
+            <li>No pay-to-win, progress is never gated</li>
+          </ul>
+          <div class="meta-row">
+            <div><span class="meta-label">Genre</span><span>Puzzle-Platformer</span></div>
+            <div><span class="meta-label">Style</span><span>2D, hyper-casual</span></div>
+            <div><span class="meta-label">Platforms</span><span>Android &amp; iOS (planned)</span></div>
+            <div><span class="meta-label">Monetization</span><span>Rewarded video, if fail only</span></div>
+          </div>
+        </div>
+      </article>
 
-  </div>
-</section>
+      <article class="spread reverse" id="maze-journey">
+        <div class="spread-art labyrinth">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <path d="M40,40 H160 V160 H60 V80 H140 V120 H80 V100" fill="none" stroke="var(--card)" stroke-width="9"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <g>
+              <rect x="26" y="18" width="6" height="18" rx="2" fill="var(--card)" />
+              <path d="M29,18 q8,-12 0,-20 q-8,8 0,20" fill="var(--card)" />
+            </g>
+            <g>
+              <rect x="168" y="162" width="6" height="18" rx="2" fill="var(--card)" />
+              <path d="M171,162 q8,-12 0,-20 q-8,8 0,20" fill="var(--card)" />
+            </g>
+          </svg>
+        </div>
+        <div class="spread-body">
+          <span class="status-pill">In development</span>
+          <h2>The Maze Journey</h2>
+          <p class="spread-tagline">An ancient labyrinth, built trap by trap.</p>
+          <p class="desc">A game growing out of real research into ancient traps, locks, and labyrinths — starting with
+            Egyptian-themed chambers. Rather than a generated maze, each room is designed around a specific historical
+            mechanism, so the challenge comes from understanding how a trap actually works, not just memorizing a path.
+          </p>
+          <ul class="feature-list">
+            <li>Levels grounded in research into real historical trap and lock mechanisms</li>
+            <li>Egyptian-themed chambers as the first setting</li>
+            <li>Environments built and textured piece by piece, from stone walls to workbenches</li>
+            <li>Hand-designed rooms, not procedurally generated mazes</li>
+          </ul>
+          <div class="meta-row">
+            <div><span class="meta-label">Genre</span><span>Puzzle / exploration</span></div>
+            <div><span class="meta-label">Setting</span><span>Ancient Egypt (first chapter)</span></div>
+            <div><span class="meta-label">Platforms</span><span>Android &amp; iOS (planned)</span></div>
+            <div><span class="meta-label">Status</span><span>In Development</span></div>
+          </div>
+        </div>
+      </article>
 
-<footer>
-  <div class="container footer-row">
-    <span>© 2026 Little Machine Games. Built and maintained by one person.</span>
-    <ul class="footer-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-  </div>
-</footer>
+    </div>
+  </section>
 
-<script src="js/main.js"></script>
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Saienko Interactive. Built and maintained by one person.</span>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>

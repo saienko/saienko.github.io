@@ -1,176 +1,188 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Little Machine Games — indie mobile games by Andrii</title>
-<meta name="description" content="Little Machine Games is the solo mobile game studio of Andrii — building tower defense and puzzle games by hand, one mechanism at a time.">
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saienko Interactive — indie mobile games</title>
+  <meta name="description" content="Saienko Interactive is the solo mobile game studio.">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-<nav class="site-nav">
-  <div class="nav-row">
-    <a href="index.html" class="wordmark">
-      <svg class="wordmark-mark" viewBox="0 0 40 40" aria-hidden="true">
-        <circle cx="20" cy="20" r="18" fill="var(--card)" stroke="var(--line)"/>
-        <circle cx="20" cy="20" r="7" fill="none" stroke="var(--ink)" stroke-width="2"/>
-        <g fill="var(--ink)">
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(45 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(45 20 20)"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(90 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(90 20 20)"/>
-          <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(135 20 20)"/>
-          <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(135 20 20)"/>
-        </g>
-      </svg>
-      Little Machine Games
-    </a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"></button>
-    <ul class="nav-links">
-      <li><a href="index.html" aria-current="page">Home</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="hero">
-  <div class="container hero-grid">
-    <div>
-      <span class="eyebrow-tag"><span class="dot"></span>Solo mobile game studio</span>
-      <h1>Small games, built like tiny worlds.</h1>
-      <p class="lede">I'm Andrii — I design, build, and polish mobile games mostly on my own, from the first system sketch to the App Store build. Every project starts as a diorama on the workbench before it becomes a game.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="games.html">See the games</a>
-        <a class="btn btn-ghost" href="#how">How I build</a>
-      </div>
-    </div>
-    <div class="hero-art">
-      <svg viewBox="0 0 200 200" role="img" aria-label="A workbench emblem: a sun on one half, a maze pattern on the other, joined by a gear">
-        <circle cx="100" cy="100" r="96" fill="var(--card)" stroke="var(--line)"/>
-        <path d="M4,100 A96,96 0 0 1 196,100 Z" fill="var(--gold-soft)"/>
-        <path d="M4,100 A96,96 0 0 0 196,100 Z" fill="var(--verdigris-soft)"/>
-        <g stroke="var(--card)" stroke-width="3" stroke-linecap="round">
-          <line x1="100" y1="100" x2="100" y2="18"/>
-          <line x1="100" y1="100" x2="145" y2="26"/>
-          <line x1="100" y1="100" x2="177" y2="58"/>
-          <line x1="100" y1="100" x2="55" y2="26"/>
-          <line x1="100" y1="100" x2="23" y2="58"/>
-        </g>
-        <path d="M40,138 h20 v-16 h16 v16 h20 v16 h-20 v16 h-16 v-16 h-20 z" fill="none" stroke="var(--card)" stroke-width="4" stroke-linejoin="round"/>
-        <circle cx="100" cy="100" r="30" fill="var(--card)" stroke="var(--line)" stroke-width="2"/>
-        <g fill="var(--ink)">
-          <rect x="97" y="66" width="6" height="10" rx="1.5"/>
-          <rect x="97" y="124" width="6" height="10" rx="1.5"/>
-          <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(45 100 100)"/>
-          <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(45 100 100)"/>
-          <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(90 100 100)"/>
-          <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(90 100 100)"/>
-          <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(135 100 100)"/>
-          <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(135 100 100)"/>
-        </g>
-        <circle cx="100" cy="100" r="13" fill="none" stroke="var(--ink)" stroke-width="2"/>
-      </svg>
-    </div>
-  </div>
-</header>
-
-<hr class="divider">
-
-<section id="how">
-  <div class="container">
-    <div class="section-head">
-      <p class="section-kicker">Process</p>
-      <h2>How each game gets made</h2>
-      <p>No studio, no pipeline handoffs — every system, sprite, and sound gets touched by the same pair of hands, in roughly this order.</p>
-    </div>
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">01</div>
-        <h3>Design on paper</h3>
-        <p>Loops, upgrade paths, and monetization get worked out in a full design document before a single asset exists — so the mechanics hold up before the art does.</p>
-      </div>
-      <div class="step">
-        <div class="step-num">02</div>
-        <h3>Build the diorama</h3>
-        <p>Art and systems are built as reusable, modular pieces — a turret tier, a trap mechanism, a texture set — so the whole world stays visually consistent as it grows.</p>
-      </div>
-      <div class="step">
-        <div class="step-num">03</div>
-        <h3>Polish and ship</h3>
-        <p>Mobile-first performance passes, playtesting, and readability checks, then a release to iOS and Android.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<hr class="divider">
-
-<section>
-  <div class="container">
-    <div class="section-head">
-      <p class="section-kicker">Currently in the workshop</p>
-      <h2>Two games on the bench</h2>
-      <p>One's about defending a floating island with sunlight. The other's about the very old art of not getting caught by a trap.</p>
-    </div>
-    <div class="game-teasers">
-      <a class="teaser-card" href="games.html#solar-island-defence">
-        <div class="teaser-art solar">
-          <svg viewBox="0 0 200 200" aria-hidden="true">
-            <circle cx="150" cy="46" r="22" fill="var(--card)"/>
-            <g stroke="var(--card)" stroke-width="5" stroke-linecap="round">
-              <line x1="150" y1="8" x2="150" y2="0"/>
-              <line x1="184" y1="26" x2="192" y2="18"/>
-              <line x1="188" y1="46" x2="198" y2="46"/>
-            </g>
-            <path d="M30,150 L170,150 L138,180 L62,180 Z" fill="var(--card)"/>
-            <rect x="82" y="96" width="20" height="60" fill="var(--card)"/>
-            <path d="M78,96 L104,96 L92,72 Z" fill="var(--card)"/>
-            <rect x="112" y="122" width="34" height="14" rx="3" fill="var(--card)"/>
-            <rect x="140" y="112" width="9" height="30" rx="3" fill="var(--card)"/>
-          </svg>
-        </div>
-        <div class="teaser-body">
-          <span class="status-pill">In development</span>
-          <h3>Solar Island Defence</h3>
-          <p>Tower defense on a floating solarpunk island, played out like a toy diorama.</p>
-        </div>
+  <nav class="site-nav">
+    <div class="nav-row">
+      <a href="index.html" class="wordmark">
+        <svg class="wordmark-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="var(--card)" stroke="var(--line)" />
+          <circle cx="20" cy="20" r="7" fill="none" stroke="var(--ink)" stroke-width="2" />
+          <g fill="var(--ink)">
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(45 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(45 20 20)" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(90 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(90 20 20)" />
+            <rect x="18.3" y="3" width="3.4" height="6" rx="1" transform="rotate(135 20 20)" />
+            <rect x="18.3" y="31" width="3.4" height="6" rx="1" transform="rotate(135 20 20)" />
+          </g>
+        </svg>
+        Saienko Interactive
       </a>
-      <a class="teaser-card" href="games.html#labyrinth-project">
-        <div class="teaser-art labyrinth">
-          <svg viewBox="0 0 200 200" aria-hidden="true">
-            <path d="M46,46 H154 V154 H70 V90 H130 V118 H98"
-                  fill="none" stroke="var(--card)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="36" cy="40" r="6" fill="var(--card)"/>
-            <path d="M36,34 q6,-10 0,-16 q-6,6 0,16" fill="var(--card)"/>
-            <circle cx="164" cy="160" r="6" fill="var(--card)"/>
-            <path d="M164,154 q6,-10 0,-16 q-6,6 0,16" fill="var(--card)"/>
-          </svg>
-        </div>
-        <div class="teaser-body">
-          <span class="status-pill">Early concepting</span>
-          <h3>Labyrinth of Traps <em>(working title)</em></h3>
-          <p>A game built from real trap and lock mechanisms, starting in an Egyptian-themed tomb.</p>
-        </div>
-      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"></button>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
     </div>
-  </div>
-</section>
+  </nav>
 
-<footer>
-  <div class="container footer-row">
-    <span>© 2026 Little Machine Games. Built and maintained by one person.</span>
-    <ul class="footer-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-    </ul>
-  </div>
-</footer>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow-tag"><span class="dot"></span>Solo game studio</span>
+        <h1>Small games, built like tiny worlds.</h1>
+        <p class="lede">I'm Andrii — I design, build, and polish games mostly on my own, from the first system
+          sketch to the Store build. Every project starts as a diorama on the 3D workbench before it becomes a game.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="games.html">See the games</a>
+          <a class="btn btn-ghost" href="#how">How I build</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <svg viewBox="0 0 200 200" role="img"
+          aria-label="A workbench emblem: a sun on one half, a maze pattern on the other, joined by a gear">
+          <circle cx="100" cy="100" r="96" fill="var(--card)" stroke="var(--line)" />
+          <path d="M4,100 A96,96 0 0 1 196,100 Z" fill="var(--gold-soft)" />
+          <path d="M4,100 A96,96 0 0 0 196,100 Z" fill="var(--verdigris-soft)" />
+          <g stroke="var(--card)" stroke-width="3" stroke-linecap="round">
+            <line x1="100" y1="100" x2="100" y2="18" />
+            <line x1="100" y1="100" x2="145" y2="26" />
+            <line x1="100" y1="100" x2="177" y2="58" />
+            <line x1="100" y1="100" x2="55" y2="26" />
+            <line x1="100" y1="100" x2="23" y2="58" />
+          </g>
+          <path d="M40,138 h20 v-16 h16 v16 h20 v16 h-20 v16 h-16 v-16 h-20 z" fill="none" stroke="var(--card)"
+            stroke-width="4" stroke-linejoin="round" />
+          <circle cx="100" cy="100" r="30" fill="var(--card)" stroke="var(--line)" stroke-width="2" />
+          <g fill="var(--ink)">
+            <rect x="97" y="66" width="6" height="10" rx="1.5" />
+            <rect x="97" y="124" width="6" height="10" rx="1.5" />
+            <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(45 100 100)" />
+            <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(45 100 100)" />
+            <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(90 100 100)" />
+            <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(90 100 100)" />
+            <rect x="97" y="66" width="6" height="10" rx="1.5" transform="rotate(135 100 100)" />
+            <rect x="97" y="124" width="6" height="10" rx="1.5" transform="rotate(135 100 100)" />
+          </g>
+          <circle cx="100" cy="100" r="13" fill="none" stroke="var(--ink)" stroke-width="2" />
+        </svg>
+      </div>
+    </div>
+  </header>
 
-<script src="js/main.js"></script>
+  <hr class="divider">
+
+  <section id="how">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Process</p>
+        <h2>How each game gets made</h2>
+        <p>No studio, no pipeline handoffs — every system, sprite, and sound gets touched by the same pair of hands, in
+          roughly this order.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Design on paper</h3>
+          <p>Loops, upgrade paths, and monetization get worked out in a full design document before a single asset
+            exists — so the mechanics hold up before the art does.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Build the 3D diorama</h3>
+          <p>Art and systems are built as reusable, modular pieces — a turret tier, a trap mechanism, a texture set — so
+            the whole world stays visually consistent as it grows.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Polish and ship</h3>
+          <p>Mobile-first performance passes, playtesting, and readability checks, then a release.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Currently in the workshop</p>
+        <h2>Published Games</h2>
+        <!-- <p>One's about defending a floating island with sunlight. The other's about the very old art of not getting
+          caught by a trap.</p> -->
+      </div>
+      <div class="game-teasers">
+        <a class="teaser-card" href="games.html#geometry-hunter">
+          <div class="teaser-art solar">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="150" cy="46" r="22" fill="var(--card)" />
+              <g stroke="var(--card)" stroke-width="5" stroke-linecap="round">
+                <line x1="150" y1="8" x2="150" y2="0" />
+                <line x1="184" y1="26" x2="192" y2="18" />
+                <line x1="188" y1="46" x2="198" y2="46" />
+              </g>
+              <path d="M30,150 L170,150 L138,180 L62,180 Z" fill="var(--card)" />
+              <rect x="82" y="96" width="20" height="60" fill="var(--card)" />
+              <path d="M78,96 L104,96 L92,72 Z" fill="var(--card)" />
+              <rect x="112" y="122" width="34" height="14" rx="3" fill="var(--card)" />
+              <rect x="140" y="112" width="9" height="30" rx="3" fill="var(--card)" />
+            </svg>
+          </div>
+          <div class="teaser-body">
+            <span class="status-pill">In Store</span>
+            <h3>Geometry Hunter</h3>
+            <p>Hybrid puzzle-platformer with a focus on geometric equality-solving.</p>
+          </div>
+        </a>
+        <a class="teaser-card" href="games.html#maze-journey">
+          <div class="teaser-art labyrinth">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <path d="M46,46 H154 V154 H70 V90 H130 V118 H98" fill="none" stroke="var(--card)" stroke-width="8"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="36" cy="40" r="6" fill="var(--card)" />
+              <path d="M36,34 q6,-10 0,-16 q-6,6 0,16" fill="var(--card)" />
+              <circle cx="164" cy="160" r="6" fill="var(--card)" />
+              <path d="M164,154 q6,-10 0,-16 q-6,6 0,16" fill="var(--card)" />
+            </svg>
+          </div>
+          <div class="teaser-body">
+            <span class="status-pill">In development</span>
+            <h3>The Maze Journey</h3>
+            <p>A game built from real trap and lock mechanisms, starting in an Egyptian-themed tomb.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© 2026 Saienko Interactive. Built and maintained by one person.</span>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>
